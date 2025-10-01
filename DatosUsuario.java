@@ -1,10 +1,9 @@
-import java.uitil.Scanner;
+import java.util.Scanner;
 
-import utilidades.Usuario;
 public class DatosUsuario{
-    public static vaid main(string[]args){
+    public static void main(string[]args){
 
-    java.util.Scanner sc = new scanner (sistem.in);
+    Scanner sc = new Scanner (System.in);
     System.out.println("¿cual es tu nombre?");
     String nombre = sc.nextLine();
 
